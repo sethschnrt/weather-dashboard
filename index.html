@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bebas+Neue&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+  <header>
+    <h1>Weather Dashboard</h1>
+  </header>
+  <div class="container text-center columns">
+    <div class="row align-items-start">
+      <div class="col">
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="search">Search for a city: </label>
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Enter city name"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+        <ul class="list-group cities-list" id="selected-cities"></ul>
+      </div>
+      <div class="col">
+        <h3>Current Weather</h3>
+        <div id="current-weather">
+            <h4 id="city-name"></h4>
+  <p>Temperature: <span id="temperature"></span></p>
+  <p>Humidity: <span id="humidity"></span></p>
+  <p>Wind Speed: <span id="wind-speed"></span></p>
+          <span id="condition-icon"></span>
+        </div>
+    </div>
+      <div class="col">
+        <h3>5-Day Forecast</h3>
+        <div class="row" id="forecast">
+          <div class="col" id="forecast-1"></div>
+          <div class="col" id="forecast-2"></div>
+          <div class="col" id="forecast-3"></div>
+          <div class="col" id="forecast-4"></div>
+          <div class="col" id="forecast-5"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./assets/js/script.js"></script>
+</body>

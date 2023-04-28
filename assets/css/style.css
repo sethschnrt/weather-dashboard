@@ -1,0 +1,23 @@
+:root {
+    --header-font: "Bebas Neue", cursive;
+    --type-font: "Archivo", sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(to right, rgb(67, 128, 209), rgb(3, 3, 189));
+    padding-top: 10px;
+    font-family: var(--header-font);
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .columns {
+    font-family: var(--type-font), bold;
+  }
+  
+  .cities-list {
+    margin: 15px;
+  }
