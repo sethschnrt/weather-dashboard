@@ -35,7 +35,7 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 
 ## Visuals
 
-Here is a link to the finished site: 
+Here is a link to the finished site: https://sethschnrt.github.io/weather-dashboard/
 
 ## Support
 
@@ -46,3 +46,4 @@ For any issues with the website or any questions about its configuration, contac
 All current changes have been processed by Seth Schoenert. Here is a link to the github that holds the code for this site: https://github.com/sethschnrt/weather-dashboard
 
 ## Website Screenshot
+![Screenshot 2023-04-27 at 10 37 34 PM](https://user-images.githubusercontent.com/127680441/235049384-1c1d3dfd-8c9d-4aee-8bda-2322460fdaf6.png)
